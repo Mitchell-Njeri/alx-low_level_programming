@@ -4,7 +4,8 @@
 int main()
 
 {
-	char Newline="\"Programming is like building a multilingual puzzle";
+	char Newline[]="\"Programming is like building a multilingual puzzle";
+
 	puts(Newline);
 
 	return 0;
