@@ -1,12 +1,14 @@
 #include <stdio.h>
-#include <string.h>
+/**
+ * main - entry point
+ *
+ * Return: 0;
+ */
 
-int main()
+int main(void)
 
 {
-	char Newline[]="\"Programming is like building a multilingual puzzle";
+	puts("\"Programming is like building a multilingual puzzle");
 
-	puts(Newline);
-
-	return 0;
+	return (0);
 }
