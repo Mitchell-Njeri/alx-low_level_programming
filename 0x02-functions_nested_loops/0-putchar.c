@@ -1,10 +1,22 @@
 #include <stdio.h>
+#include "main.h"
 /**
- * main - Entry point
- *
- * Return: always 0 (Success)
- */
-void main(void)
+* _putchar - writes the character c to stdout
+* @c: The character to print
+*
+* Return: On success 1.
+* On error, -1 is returned, and errno is set appropriately.
+*/
+
+int main(void)
 {
-	printf("_putchar\n")
+int count;
+int vals[] = {95,112,117,114,99,107,97,114};
+
+for(count = 0; count <= 7; count++)
+{
+_putchar(vals[count]);
+}
+_putchar('\n');
+return (0);
 }
